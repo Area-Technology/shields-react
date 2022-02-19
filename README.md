@@ -52,7 +52,7 @@ If a Shield has not yet been built, a placeholder shield will be rendered.
 ```jsx
 import { Field } from '@areatechnology/shields-react';
 
-<Field fieldId={...} colors={...} hardwareId={...} frameId={...} />
+<Field fieldId={...} colors={...} />
 ```
 
 Renders an SVG with the configured Field.
