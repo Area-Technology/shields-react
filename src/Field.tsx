@@ -14,7 +14,6 @@ export interface FieldProps extends HTMLAttributes<SVGElement> {
  */
 export const Field: FC<FieldProps> = React.memo(
   ({ fieldId, colors, ...props }) => {
-    console.log({ Fields });
     return (
       <svg
         width="100%"
